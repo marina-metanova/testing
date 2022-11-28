@@ -4,6 +4,9 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/TestApp/TestApp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/TestApp/desktop-tutorial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backup" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backup/TestApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/backup/desktop-tutorial" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/test-app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/test-app/TestApp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/test-app/desktop-tutorial" vcs="Git" />
