@@ -4,9 +4,9 @@ Ext.define('TestApp.Application', {
 	requires: ['TestApp.*'],
 
 	removeSplash: function () {
-		Ext.getBody().removeCls('launching')
-		var elem = document.getElementById("splash")
-		elem.parentNode.removeChild(elem)
+		Ext.getBody().removeCls('launching');
+		const elem = document.getElementById("splash");
+		elem.parentNode.removeChild(elem);
 	},
 
 	launch: function () {
