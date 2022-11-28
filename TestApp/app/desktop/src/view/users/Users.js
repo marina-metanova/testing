@@ -27,25 +27,26 @@ Ext.define('TestApp.view.users.Users',{
 
     rowNumbers: true,
 
+    defaults: {
+        editable: false,
+    },
+
     columns: [
         {
             text: 'Name',
             dataIndex: 'name',
-            editable: false,
             width: 150
         },
 
         {
             text: 'Email',
             dataIndex: 'email',
-            editable: false,
             width: 230
         },
 
         {
             text: 'Address',
             dataIndex: 'address',
-            editable: false,
             width: 270
         },
 

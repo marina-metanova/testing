@@ -23,25 +23,22 @@ Ext.define('TestApp.view.users.UserDialog', {
         xtype: 'formpanel',
         reference: 'form',
         autoSize: true,
-        items: [{
+        defaults: {
             xtype: 'textfield',
-            name: 'name',
-            label: 'Full Name',
             allowBlank: false,
             required: true
+        },
+        items: [{
+            name: 'name',
+            label: 'Full Name'
         }, {
             xtype: 'emailfield',
             name: 'email',
             label: 'Email',
-            allowBlank: false,
-            required: true,
             validators: 'email'
         }, {
-            xtype: 'textfield',
             name: 'address',
-            label: 'Address',
-            allowBlank: false,
-            required: true
+            label: 'Address'
         }]
     }],
 
