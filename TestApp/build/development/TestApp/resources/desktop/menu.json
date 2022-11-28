@@ -1,7 +1,0 @@
-{
-  "leaf": false,
-  "children": [
-    { "text": "Users", "iconCls": "x-fa fa-user", "xtype": "users","leaf": true },
-    { "text": "Photos", "iconCls": "x-fa fa-table", "xtype": "picturesview","leaf": true }
-  ]
-}
